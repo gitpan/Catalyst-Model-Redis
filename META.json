@@ -17,6 +17,9 @@
       "directory" : [
          "t",
          "inc"
+      ],
+      "file" : [
+         "README.pod"
       ]
    },
    "prereqs" : {
@@ -39,5 +42,17 @@
       }
    },
    "release_status" : "stable",
-   "version" : "0.01"
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/trinitum/perl-Catalyst-Model-Redis/issues"
+      },
+      "homepage" : "https://github.com/trinitum/perl-Catalyst-Model-Redis",
+      "license" : [
+         "http://dev.perl.org/licenses/"
+      ],
+      "repository" : {
+         "url" : "git://github.com/trinitum/perl-Catalyst-Model-Redis"
+      }
+   },
+   "version" : "0.02"
 }

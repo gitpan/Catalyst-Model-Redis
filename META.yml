@@ -17,8 +17,15 @@ no_index:
   directory:
     - t
     - inc
+  file:
+    - README.pod
 requires:
   Catalyst: 5.9
   RedisDB: 1.00
   Test::More: 0.94
-version: 0.01
+resources:
+  bugtracker: https://github.com/trinitum/perl-Catalyst-Model-Redis/issues
+  homepage: https://github.com/trinitum/perl-Catalyst-Model-Redis
+  license: http://dev.perl.org/licenses/
+  repository: git://github.com/trinitum/perl-Catalyst-Model-Redis
+version: 0.02
